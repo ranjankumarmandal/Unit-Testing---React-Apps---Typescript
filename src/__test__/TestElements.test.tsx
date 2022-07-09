@@ -19,3 +19,5 @@ it('button-up should be enabled', () => {
   const { getByTestId } = render(<TestElements />);
   expect(getByTestId('button-up')).not.toHaveAttribute('disabled');
 });
+
+// test 3 : Test if one button button-down is disabled
