@@ -10,4 +10,6 @@ afterEach(cleanup);
 
 it('counter should equal to 0', () => {
   // write your tests here
+  const { getByTestId } = render(<TestElements />);
+  expect(getByTestId('counter')).toHaveTextContent('0');
 });
