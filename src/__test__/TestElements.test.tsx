@@ -15,3 +15,7 @@ it('counter should equal to 0', () => {
 });
 
 // test 2 : Test if one button button-up is enabled
+it('button-up should be enabled', () => {
+  const { getByTestId } = render(<TestElements />);
+  expect(getByTestId('button-up')).not.toHaveAttribute('disabled');
+});
