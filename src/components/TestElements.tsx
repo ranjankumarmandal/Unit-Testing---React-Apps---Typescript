@@ -21,3 +21,5 @@ const TestElements = () => {
 };
 
 export default TestElements;
+
+// data-testid = Here, the only thing you have to retain is data-testid. It will be used to select these elements from the test file.
