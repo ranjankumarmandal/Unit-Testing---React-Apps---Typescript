@@ -6,7 +6,9 @@ const TestElements = () => {
   return (
     <>
       <h1 data-testid='counter'>{counter}</h1>
-      <button>Up</button>
+      <button data-testid='button-up' onClick={() => setCounter(counter + 1)}>
+        Up
+      </button>
     </>
   );
 };
