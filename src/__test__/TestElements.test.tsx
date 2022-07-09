@@ -23,4 +23,5 @@ it('button-up should be enabled', () => {
 // test 3 : Test if one button button-down is disabled
 it('button-down should be disabled', () => {
   const { getByTestId } = render(<TestElements />);
+  expect(getByTestId('button-down')).toBeDisabled();
 });
