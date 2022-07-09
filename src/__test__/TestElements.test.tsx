@@ -13,3 +13,5 @@ it('counter should equal to 0', () => {
   const { getByTestId } = render(<TestElements />);
   expect(getByTestId('counter')).toHaveTextContent('0');
 });
+
+// test 2 : Test if one button button-up is enabled
