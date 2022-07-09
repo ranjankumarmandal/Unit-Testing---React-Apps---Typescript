@@ -6,6 +6,7 @@ const TestElements = () => {
   return (
     <>
       <h1 data-testid='counter'>{counter}</h1>
+      <button>Up</button>
     </>
   );
 };
