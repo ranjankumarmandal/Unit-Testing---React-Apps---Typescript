@@ -6,4 +6,8 @@ import TestElements from '../components/TestElements';
 
 afterEach(cleanup);
 
-// testt 1 : Test if the counter is equal to 0:
+// testt 1 : Test if the counter is equal to 0
+
+it('counter should equal to 0', () => {
+  // write your tests here
+});
