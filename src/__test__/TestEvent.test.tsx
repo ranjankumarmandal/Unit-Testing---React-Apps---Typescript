@@ -16,3 +16,6 @@ it('increament counter event should work', () => {
 });
 
 // Test 2 : Test if decrement counter event is working good
+it('decreament counter event should work', () => {
+  // write tests here
+});
