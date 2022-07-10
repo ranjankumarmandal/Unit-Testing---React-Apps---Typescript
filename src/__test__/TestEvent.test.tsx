@@ -14,3 +14,5 @@ it('increament counter event should work', () => {
 
   expect(getByTestId('counter')).toHaveTextContent('1');
 });
+
+// test 2 : Test if decrement counter event is working good
