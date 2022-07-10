@@ -18,4 +18,8 @@ it('increament counter event should work', () => {
 // Test 2 : Test if decrement counter event is working good
 it('decreament counter event should work', () => {
   // write tests here
+  const { getByTestId } = render(<TestEvent />);
+  fireEvent.click(getByTestId('button-down'));
+
+  expect(getByTestId('counter')).toHaveTextContent('-1');
 });

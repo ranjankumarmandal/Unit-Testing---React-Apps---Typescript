@@ -5,7 +5,7 @@ const TestEvent = () => {
 
   return (
     <>
-      <h1 data-testid='counter'>Counter</h1>
+      <h1 data-testid='counter'>{counter}</h1>
       <button data-testid='button-up' onClick={() => setCounter(counter + 1)}>
         Up
       </button>
