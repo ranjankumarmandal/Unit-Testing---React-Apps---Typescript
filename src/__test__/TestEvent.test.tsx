@@ -10,7 +10,7 @@ afterEach(cleanup);
 it('increament counter event should work', () => {
   // write tests here
   const { getByTestId } = render(<TestEvent />);
-  fireEvent.click(getByTestId('button-up')); // click event in unit testing with react-testing-library with jest
+  fireEvent.click(getByTestId('button-up')); // click event in unit testing with react-testing-library w/ jest
 
   expect(getByTestId('counter')).toHaveTextContent('1');
 });
