@@ -5,3 +5,5 @@ import { render, cleanup, fireEvent } from '@testing-library/react';
 import TestEvent from '../components/TestEvent';
 
 afterEach(cleanup);
+
+// Test 1 : Test if increament counter event is working good
