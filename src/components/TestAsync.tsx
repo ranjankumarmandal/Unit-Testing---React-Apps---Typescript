@@ -11,7 +11,7 @@ const TestAsync = () => {
 
   return (
     <>
-      <h1>{counter}</h1>
+      <h1 data-testid='counter'>{counter}</h1>
       <button data-testid='button-up' onClick={handleAsyncClick}>
         Up
       </button>
